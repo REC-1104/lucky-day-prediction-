@@ -1,4 +1,5 @@
 import React from 'react'
+import {AiFillGithub} from 'react-icons/ai'
 
 const main = () => {
 
@@ -157,7 +158,7 @@ const main = () => {
       <h2 id='caution'>CAUTION!</h2>
       <p id="mc">The 'RITUAL' offers a sacrifice of an annoying cat. You can watch it by continuing. The content you about to watch might be disturbing. Continue at your own risk.</p>
       <div class="ns" >
-        <a href="https://www.youtube.com/watch?v=B_vyALmAzjY&ab_channel=PatrickK">Continue</a> 
+        <a href="https://www.youtube.com/watch?v=B_vyALmAzjY&ab_channel=PatrickK" target='_blank'>Continue</a> 
       </div>
       <div class="ns" onClick={closeModal}>
          Go Back (Highly Suggested)
@@ -167,6 +168,7 @@ const main = () => {
     <div class="signup-link" id="questions">
       <p class="up" onClick={Warning}>What is this damn RITUAL ?</p>
     </div>
+    <a href="https://github.com/REC-1104/lucky-day-prediction-" target='_blank'><AiFillGithub class="github-icon" /></a>
     </div>
   )
 }

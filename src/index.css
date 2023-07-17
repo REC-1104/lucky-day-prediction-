@@ -74,6 +74,13 @@ body {
   margin-top: 8px;
 }
 
+a{
+  text-decoration: none;
+   color: rgba(2,0,36);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  display: block;
+}
+
 .ns:hover,.submit:hover {
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -126,6 +133,7 @@ body {
   animation-duration: 1.5s;
   overflow: hidden;
   transition: .12s;
+  cursor: default;
 }
 
 .form-title span {
@@ -144,6 +152,7 @@ h2,.title-2 {
   color: transparent;
   position: relative;
   text-shadow: 0px 0px 16px #CECECE;
+  cursor: default;
 }
 
 #caution{
@@ -159,13 +168,8 @@ h2,.title-2 {
     text-shadow: 0px 0px 16px #ff0000;
     text-decoration: underline;
     margin: 15px;
+    cursor: default;
   }
-
-a{
-  text-decoration: none;
-  color: rgba(2,0,36);
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-}
 
 .title-2 span::before,
 .title-2 span::after {
@@ -320,15 +324,40 @@ input[type='number'] {
   line-height: 1.25rem;
   text-align: center;
   font-family: monospace;
+  cursor: pointer;
 }
 
 .signup-link a {
   color: #fff;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .up:hover {
   text-decoration: underline;
+}
+
+.github-icon {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  color: #c0c0c0;
+  background-color: #212121;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.github-icon:hover{
+  background-color: rgba(0,212,255);
+  color: #000000;
+  cursor: pointer;
 }
 
 @keyframes modal-appear {
