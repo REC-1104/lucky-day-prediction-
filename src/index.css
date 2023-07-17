@@ -280,7 +280,7 @@ input[type='number'] {
   width: 300px;
   border-radius: 10px;
   text-align: center;
-  animation: modal-appear 0.5s ease;
+  animation: modal-appear 0.7s ease;
 }
 
 .modal1 {
@@ -307,8 +307,8 @@ input[type='number'] {
   width: 300px;
   border-radius: 10px;
   text-align: center;
-  animation: modal-appear1 0.5s ease;
-  transform: translateY(-100px);
+  animation: modal-appear1 0.7s ease;
+  transform: translateY(-70px);
 }
 
 .signup-link {
@@ -348,7 +348,7 @@ input[type='number'] {
       transform: translateY(100%);
   }
   to {
-      transform: translateY(-20%);
+      transform: translateY(-10%);
       opacity: 1;
   }
 }
