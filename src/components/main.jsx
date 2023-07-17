@@ -127,7 +127,7 @@ const main = () => {
    <div id="modal-box" class="modal">
   <div class="modal-content">
       <h2>Voilà !</h2>
-      <p id="mc">Today your are % lucky</p>
+      <p id="mc">Please fill the required fields</p>
       <div class="ns" onClick={closeModal}>
          New Search ?
       </div>
