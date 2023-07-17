@@ -120,7 +120,7 @@ a{
   font-family: monospace;
 }
 
-#mc,.form-title {
+.form-title {
   font-size: 1.25rem;
   line-height: 1.75rem;
   font-family: monospace;
@@ -132,6 +132,20 @@ a{
   overflow: hidden;
   transition: .12s;
   cursor: default;
+}
+
+#mc{
+  line-height: 1rem;
+  font-size: 1rem;
+  font-family: monospace;
+  text-align: left;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  animation-duration: 1.5s;
+  overflow: hidden;
+  transition: .12s;
+  cursor: default;
+  margin: 10px;
 }
 
 .form-title span {
@@ -241,7 +255,7 @@ h2,.title-2 {
 
 .star:nth-child(5) {
   top: 0;
-  right: -100px;
+  right: -150px;
   left: initial;
   animation-delay: 3s;
   animation-duration: 2.5s;
@@ -353,11 +367,11 @@ input[type='number'] {
 }
 
 .github-icon:hover{
-  background: linear-gradient(rgb(21, 13, 107) 1.1%, rgb(188, 16, 80) 130.5%);
-  color: rgba(0,212,255);
+  background: #ff00d4;
+  color: rgb(72, 0, 255);
   cursor: pointer;
   -webkit-box-shadow: rgba(0,212,255) 0px 0px 50px -15px;
-  box-shadow: rgba(0,212,255) 0px 0px 50px -15px;
+  box-shadow: #ff00d4 0px 0px 50px -15px;
 }
 
 @keyframes modal-appear {

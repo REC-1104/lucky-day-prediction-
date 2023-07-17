@@ -157,7 +157,8 @@ const main = () => {
   <div class="modal-content1">
       <h2 id='caution'>CAUTION!</h2>
       <p id="mc">The 'RITUAL' offers a sacrifice of an annoying cat. You can watch it by continuing. The content you about to watch might be disturbing. Continue at your own risk.</p>
-      <div class="ns" >
+      <br />
+      <div class="ns">
         <a href="https://www.youtube.com/watch?v=B_vyALmAzjY&ab_channel=PatrickK" target='_blank'>Continue</a> 
       </div>
       <div class="ns" onClick={closeModal}>
