@@ -3,8 +3,27 @@ import React from 'react'
 const main = () => {
 
     const handleModal = () => {
+      if(document.querySelector('#zo').value === '')
+      {
+        alert('Please fill all required fields');
+      }
+      else if(document.querySelector('#ln').value === '')
+      {
+        alert('Please fill all required fields');
+      }
+      else if(document.querySelector('#lc').value === '')
+      {
+        alert('Please fill all required fields');
+      }
+      else if(document.querySelector('#rf').value === '')
+      {
+        alert('Please fill all required fields');
+      }
+      else{
         document.querySelector('#modal-box').style.display = 'block'
+        console.log(document.querySelector('#zo').value)
         calculate();
+      }
       }
     
       const closeModal = () => {
