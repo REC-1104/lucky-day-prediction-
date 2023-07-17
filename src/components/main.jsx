@@ -135,10 +135,10 @@ const main = () => {
         <input class="input-item" type="number" placeholder="Enter your lucky number" id='ln' required/>
       </div>
       <div class="input-container">
-        <input class="input-item" type="text" placeholder="Do you followed the RITUAL ? (Yes/No)" id='rf' required/>
+        <input class="input-item" type="text" placeholder="Followed the RITUAL ? (Yes/No)" id='rf' required/>
       </div>
       <div class="input-container">
-        <input class="input-item" type="text" placeholder="Do you carry good luck charms ? (Yes/No)" id='lc' required/>
+        <input class="input-item" type="text" placeholder="Carry any good luck charms ? (Yes/No)" id='lc' required/>
       </div>
       <span class="submit" onClick={handleModal}>
         <span class="sign-text">PREDICT!</span>
