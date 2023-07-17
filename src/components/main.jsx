@@ -120,9 +120,9 @@ const main = () => {
       <div class="input-container">
         <input class="input-item" type="text" placeholder="Do you carry good luck charms ? (Yes/No)" id='lc' required/>
       </div>
-      <button class="submit" onClick={handleModal}>
+      <span class="submit" onClick={handleModal}>
         <span class="sign-text">PREDICT!</span>
-      </button>  
+      </span>  
    </form>
    <div id="modal-box" class="modal">
   <div class="modal-content">
