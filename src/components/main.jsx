@@ -107,7 +107,7 @@ const main = () => {
         const rf= -30.49577125;
         const intercept = 106.69244366169843;
         const ans = (zod1*zo)+((document.querySelector('#ln').value)*ln)+(rif1*rf)+(luc1*lc)+intercept;
-         output.textContent = `Today your are ${Math.round(ans)} % lucky .`;
+         output.textContent = `You are ${Math.round(ans)}% lucky.`;
          console.log(zod1);
       }
 
