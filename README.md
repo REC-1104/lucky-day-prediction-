@@ -2,13 +2,13 @@
 
 # Zodiac Luck Meter
 
-This project is a Lucky Day Prediction web application built using ReactJS. The app allows users to input their zodiac signs with other features and get predictions about their lucky days based on a multiple linear regression algorithm's results and findings. The prediction logic is implemented using a Jupyter notebook and its results and findings are used into the React app.
+This project is a Lucky Day Prediction web application built using ReactJS. The app allows users to input their zodiac signs with other features and get predictions about their lucky days based on a multiple linear regression algorithm's results and findings. The prediction logic is implemented using a python file and its results and findings are used into the React app.
 
 ## Features
 
 - User-friendly interface to input zodiac sign and other features and get lucky day predictions.
 - Real-time feedback and validation for input fields.
-- Jupyter notebook for prediction logic using multiple linear regression algorithms.
+- Python file for prediction logic using multiple linear regression algorithms.
 - Responsive design for seamless usage across different devices.
 
 ## Installation
