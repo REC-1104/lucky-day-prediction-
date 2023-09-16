@@ -32,7 +32,7 @@ const main = () => {
       }
 
       const calculate = () => {
-        const zod = document.querySelector('#zo').value.toLowerCase();
+        const zod = document.querySelector('#zo').value;
         const rif = document.querySelector('#rf').value.toLowerCase();
         const luc = document.querySelector('#lc').value.toLowerCase();
         const output = document.querySelector('#mc')
@@ -120,10 +120,26 @@ const main = () => {
     <form class="form">
      <div class="form-title"><span>Unlock Your Funky Fortune!</span></div>
       <div class="title-2"><span>ZODIAC LUCK METER</span></div>
+      <br />
       <div class="input-container">
-        <input class="input-item" type="text" placeholder="Enter zodiac sign" id='zo' required/>
-        <span> </span>
+      <label  for="zodiacsign" id ="zodd">Choose a Zodiac Sign : </label>
+      <select name="zodiacsign" class="input-item" id="zo">
+        <option value="taurus">Taurus</option>
+        <option value="leo">Leo</option>
+        <option value="capricon">Capricon</option>
+        <option value="cancer">cancer</option>
+        <option value="virgo">Virgo</option>
+        <option value="pisces">Pisces</option>
+        <option value="libra">Libra</option>
+        <option value="scorpio">Scorpio</option>
+        <option value="aries">Aries</option>
+        <option value="aquarius">Aquarius</option>
+        <option value="gemini">Gemini</option>
+        <option value="sagittarius">Sagittarius</option>
+      </select>
+        
       </div>
+      <br />
       <section class="bg-stars">
         <span class="star"></span>
         <span class="star"></span>
